@@ -1,0 +1,10 @@
+---
+label: block
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  template_types:
+  - template
+  label: block
+  name: block
