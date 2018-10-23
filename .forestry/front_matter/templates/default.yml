@@ -45,4 +45,5 @@ fields:
     label: bio
     description: bio
 pages:
+- content/test.md
 - content/about.html
