@@ -8,5 +8,3 @@ fields:
   - template
   label: block
   name: block
-pages:
-- content/about.html
