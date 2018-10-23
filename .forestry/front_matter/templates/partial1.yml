@@ -1,0 +1,9 @@
+---
+label: partial1
+hide_body: false
+is_partial: true
+display_field: pagename
+fields:
+- type: text
+  label: pagename
+  name: pagename
