@@ -1,0 +1,9 @@
+---
+label: 'template '
+hide_body: false
+is_partial: true
+display_field: template
+fields:
+- type: text
+  name: template
+  label: template
