@@ -32,5 +32,13 @@ fields:
   name: bofas
   label: Bofas
   description: BOFAS AQUI
+- type: field_group_list
+  name: authors
+  label: authors
+  fields:
+  - type: text
+    label: name
+    name: name
+    description: name
 pages:
 - content/about.html
