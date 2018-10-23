@@ -30,5 +30,5 @@ fields:
   default: []
 - type: text
   name: bofas
-  label: BOFAS
+  label: Bofas
   description: BOFAS AQUI
