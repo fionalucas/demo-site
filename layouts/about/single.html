@@ -14,6 +14,15 @@
             <article class="box post">
                 <div class="image featured" style="background-image: url('{{ .Site.BaseURL }}{{ .Params.banner }}');"></div>
                 <header>
+                  
+                  {{ range .Params.authors }}
+                    <div class="author">
+                      <h2>{{ .name }}</h2>
+                      <small>{{ .bio }}</small>
+                    </div>
+                  {{ end }}
+                  
+                  
                     <h2>{{ .Params.bofas }}</h2>
                     <h2>{{ .Title }}</h2>
                   <h2>{{ .Date }}</h2>
