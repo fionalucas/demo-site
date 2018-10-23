@@ -40,5 +40,9 @@ fields:
     label: name
     name: name
     description: name
+  - type: text
+    name: bio
+    label: bio
+    description: bio
 pages:
 - content/about.html
