@@ -32,3 +32,5 @@ fields:
   name: bofas
   label: Bofas
   description: BOFAS AQUI
+pages:
+- content/about.html
