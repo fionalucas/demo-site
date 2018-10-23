@@ -28,3 +28,7 @@ fields:
   type: tag_list
   hidden: false
   default: []
+- type: text
+  name: bofas
+  label: BOFAS
+  description: BOFAS AQUI
