@@ -1,4 +1,8 @@
 <!-- Header -->
+cao
+{{ if isset . "bruno" }} {{ .bruno }} asd {{ end }}
+
+gato
 <div id="header-wrapper">
     <div id="header">
 
@@ -11,6 +15,7 @@
                 {{ range .Site.Menus.main }}
                     <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                 {{end}}
+
             </ul>
         </nav>
 

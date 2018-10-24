@@ -23,13 +23,12 @@
                   {{ end }}
                   
                   
-                  {{ range .Params.block }}
-                  
-                    {{ if eq "head" .template }}
-                        <h2>this is the template:  {{ .template }}</h2>
-                        {{ partial "header.html" . }}
+                {{ range .Params.block }}
+                    {{ if eq "team" .template }}
+					    <h2>this is the template:  {{ .bruno }}</h2>
+                        {{ partial "team.html" . }}
                     {{ end }}
-                {{ end }}
+				{{ end }}
                   
                     <h2>{{ .Params.bofas }}</h2>
                     <h2>{{ .Title }}</h2>

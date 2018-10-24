@@ -1,7 +1,7 @@
 baseurl = "https://fionalucas.github.io/demo-site/"
 languagecode = "en-us"
 pluralizelisttitles = false
-title = "Adventure Time!"
+title = "bofas Time!"
 [[menu.main]]
 name = "Posts-"
 url = "/posts"
