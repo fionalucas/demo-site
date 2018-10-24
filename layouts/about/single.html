@@ -23,6 +23,14 @@
                   {{ end }}
                   
                   
+                  {{ range .Params.template }}
+                    {{ if eq "head" .template }}
+                  <h2>tu es meu peanut</h2>
+                        {{ partial "head.html" . }}
+                  <h2>tu es meu peanut</h2>
+                    {{ end }}
+                {{ end }}
+                  
                     <h2>{{ .Params.bofas }}</h2>
                     <h2>{{ .Title }}</h2>
                   <h2>{{ .Date }}</h2>
