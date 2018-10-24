@@ -24,11 +24,10 @@
                   
                   
                   {{ range .Params.block }}
-                  <h2>{{ .template }}</h2>
+                  
                     {{ if eq "head" .template }}
-                  <h2>tu es meu peanut</h2>
+                        <h2>this is the template:  {{ .template }}</h2>
                         {{ partial "header.html" . }}
-                  <h2>tu es meu peanut</h2>
                     {{ end }}
                 {{ end }}
                   
