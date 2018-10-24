@@ -1,0 +1,10 @@
+---
+label: head
+hide_body: false
+is_partial: true
+display_field: head-value
+fields:
+- type: text
+  default: head-value
+  label: head-value
+  name: head-value
