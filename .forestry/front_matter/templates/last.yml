@@ -7,5 +7,4 @@ fields:
   name: bruno
   label: bruno
 pages:
-- content/about.html
 - content/partial1.md
