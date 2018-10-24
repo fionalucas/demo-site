@@ -1,0 +1,8 @@
+---
+label: last
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: something
+  label: something
