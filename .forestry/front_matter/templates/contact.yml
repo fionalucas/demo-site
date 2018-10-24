@@ -23,10 +23,5 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
 pages:
 - content/about.html
