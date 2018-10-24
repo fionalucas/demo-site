@@ -7,4 +7,5 @@ fields:
   name: something
   label: bruno
 pages:
+- content/about.html
 - content/partial1.md
