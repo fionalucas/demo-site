@@ -5,6 +5,7 @@ is_partial: false
 fields:
 - type: blocks
   template_types:
+  - team-8fa99328-3317-490c-b006-bf2da28a250c
   - head
   - template
   label: block
