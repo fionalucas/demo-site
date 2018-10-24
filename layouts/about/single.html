@@ -24,6 +24,7 @@
                   
                   
                   {{ range .Params.template }}
+                  <h2>{{.template}}}</h2>
                     {{ if eq "head" .template }}
                   <h2>tu es meu peanut</h2>
                         {{ partial "head.html" . }}
