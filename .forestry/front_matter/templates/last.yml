@@ -6,3 +6,5 @@ fields:
 - type: text
   name: something
   label: something
+pages:
+- content/partial1.md
