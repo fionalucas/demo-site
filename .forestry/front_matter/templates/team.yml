@@ -6,3 +6,9 @@ fields:
 - type: text
   name: bruno
   label: bruno
+- type: text
+  name: name
+  label: name
+- type: text
+  name: role
+  label: role
