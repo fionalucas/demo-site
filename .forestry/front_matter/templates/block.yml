@@ -5,6 +5,7 @@ is_partial: false
 fields:
 - type: blocks
   template_types:
+  - testimonials
   - services
   - head
   - template
