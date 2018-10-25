@@ -1,0 +1,13 @@
+---
+label: testimonials
+hide_body: false
+is_partial: true
+display_field: name
+fields:
+- type: text
+  name: client
+  label: client
+- type: text
+  name: desc
+  label: desc
+  
