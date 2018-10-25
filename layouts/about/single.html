@@ -24,11 +24,17 @@
                   
                   
                 {{ range .Params.block }}
-                    {{ if eq "team" .template }}
-					    <h2>this is the template:  {{ .bruno }}</h2>
-                        {{ partial "team.html" . }}
-                    {{ end }}
-				{{ end }}
+                    	{{ if eq "team" .template }}
+				<h2>this is the template:  {{ .bruno }}</h2>
+                        	{{ partial "team.html" . }}
+                    	{{ end }}
+			{{ if eq "services" .template }}	    
+                        	{{ partial "services.html" . }}
+                    	{{ end }}
+			{{ if eq "testimonials" .template }}	    
+                        	{{ partial "testimonials.html" . }}
+                    	{{ end }}
+		{{ end }}
                   
                     <h2>{{ .Params.bofas }}</h2>
                     <h2>{{ .Title }}</h2>
