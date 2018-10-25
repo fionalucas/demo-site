@@ -2,7 +2,7 @@
 label: testimonials
 hide_body: false
 is_partial: true
-display_field: name
+display_field: client
 fields:
 - type: text
   name: client
