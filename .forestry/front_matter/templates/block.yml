@@ -5,6 +5,7 @@ is_partial: false
 fields:
 - type: blocks
   template_types:
+  - services
   - head
   - template
   label: block
